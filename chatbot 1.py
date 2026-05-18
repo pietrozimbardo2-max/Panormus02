@@ -88,7 +88,7 @@ if documento is not None:
         model="gpt-5.4-nano",
         temperature=0.3,
         max_tokens=1000,
-        openai_api_key= st.secrets["OPENAI_API_KEY"]
+        openai_api_key= st.secrets["OPENAI_API_KEY"])
     
     catena = (
          {"context": comparatore | formatta_documento, 
