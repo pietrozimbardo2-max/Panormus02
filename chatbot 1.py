@@ -53,7 +53,7 @@ if documento is not None:
     # https://docs.langchain.com/oss/python/integrations/embeddings
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-small",
-        openai_api_key= st.secrets["OPEN_AI_KEY"])
+        openai_api_key = st.secrets["OPEN_AI_KEY"])
     # st.write("Embedding recuperati!")
 
     # Salviamo gli embeddings in un vector store o vector db (es. FAISS, Pinecone, etc.)
