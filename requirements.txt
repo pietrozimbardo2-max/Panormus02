@@ -1,4 +1,4 @@
-# librerie
+# Librerie
 streamlit
 pdfplumber
 langchain-text-splitters
